@@ -1,2 +1,2 @@
 # ADS
-Just Daily ADS Practice
+Revising Python through ADS
