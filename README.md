@@ -22,7 +22,7 @@
 | Jupyter NoteBook      | Python IDE                                  | [Docs](https://brew.sh/)                 |
 | Python3               | Pyhton Programming Language                 | [Docs](https://www.python.org/downloads) |
 | Anaconda              | Pyhton Data Science Utils                   | [Docs](https://www.anaconda.com)         |
-| nb-mermaid            | Display Graphics on Jupyter Notebook        | [nb-mermaid](https://bollwyvl.github.io/nb-mermaid/)
+| nb-mermaid            | Display Graphics on Jupyter Notebook        | [nb-mermaid](https://mermaid.readthedocs.io/en/latest/notes/installation.html)
 </blockquote>
 
 ### Runnig the code
@@ -52,8 +52,8 @@ Jupyter Notebook
 <blockquote>
 <p>
 
-Give instructions on how to contribute to the codebase here. You can also include a link or breif description of coding guidelines and other cool stuff:
-md@markd-doesntexist.com
+Send email to:
+lavius.motileng@outlook.com to collaborate
 <br>
 </p>
 </blockquote>
