@@ -42,7 +42,7 @@ Jupyter Notebook
 | Project      | Description                                 | Docs                                     |
 | ------------ | ------------------------------------------- | -------------------------------          |
 |              |
-| LinkedList   | Implemenation of SingleLinkedList, DoubleLinkedList and OrderdLinkedList               | [Location](./src/LinkedlIST)                 |
+| LinkedList   | Implemenation of SingleLinkedList, DoubleLinkedList and OrderdLinkedList               | [Location](./src/LinkedList)                 |
 | Project2     | Coming...                                                                              | [Location](./src/Projectone)                 |
 
 <br>
