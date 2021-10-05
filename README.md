@@ -22,7 +22,6 @@
 | Jupyter NoteBook      | Python IDE                                  | [Docs](https://brew.sh/)                 |
 | Python3               | Pyhton Programming Language                 | [Docs](https://www.python.org/downloads) |
 | Anaconda              | Pyhton Data Science Utils                   | [Docs](https://www.anaconda.com)         |
-| nb-mermaid            | Display Graphics on Jupyter Notebook        | [nb-mermaid](https://mermaid.readthedocs.io/en/latest/notes/installation.html)
 </blockquote>
 
 ### Runnig the code
