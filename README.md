@@ -3,8 +3,6 @@
 <b>ADS.</b> Contains a bunch of algorithms and data structures implemented in python and a walkthrough of the solutions using a Jupyter Notebook.
 </p>
 
-![react-material-admin-demo](./Resources/Header.jpg)
-
 ## Getting Started
 
 <blockquote>
