@@ -1,3 +1,7 @@
+"""
+Source: https://jupyter-notebook.readthedocs.io/en/4.x/examples/Notebook/rstversions/Importing%20Notebooks.html
+"""
+
 import io, os, sys, types
 from IPython import get_ipython
 from nbformat import read
