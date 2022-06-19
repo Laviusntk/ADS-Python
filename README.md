@@ -34,23 +34,23 @@ Jupyter Notebook
 
 <br>
 
-## Link to Subprojects
+## Content Covered
 
-| Project      | Description                                 | Docs                                     |
-| ------------ | ------------------------------------------- | -------------------------------          |
-|              |
-| LinkedList   | Implemenation of SingleLinkedList, DoubleLinkedList and OrderdLinkedList               | [Location](./src/LinkedList)                 |
-| Project2     | Coming...                                                                              | [Location](./src/Projectone)                 |
-
+| Project      | Description                                 | Docs                            |
+| ------------ | ------------------------------------------- | ------------------------------- |
+|                 |
+| Object Oriented Programming | Object Oriented Programming Revision  | [Link](./src/OOP)   |
+| Data Structures             | LinkedLists, Trees, Graphs.           | [Link](./src/src/Data%20Structures)   |
+| Dynamic Programming         | Dynamic Programming                   | [Link](./src/Projectone)   |
+| Project2                    | Coming...                             | [Link](./src/Projectone)   |
 <br>
 
 ## Contributing
 
 <blockquote>
 <p>
-
-Send email to:
-lavius.motileng@outlook.com to collaborate
+Feel free to clone, fork and make PRs to this repo. Should you need any assistance feel free to contact me at:
+https://www.linkedin.com/in/laviusmotileng/
 <br>
 </p>
 </blockquote>
