@@ -39,10 +39,10 @@ Jupyter Notebook
 | Project      | Description                                 | Docs                            |
 | ------------ | ------------------------------------------- | ------------------------------- |
 |                 |
-| Object Oriented Programming | Object Oriented Programming Revision  | [Link](./src/OOP)   |
-| Data Structures             | LinkedLists, Trees, Graphs.           | [Link](./src/src/Data%20Structures)   |
-| Dynamic Programming         | Dynamic Programming                   | [Link](./src/Projectone)   |
-| Project2                    | Coming...                             | [Link](./src/Projectone)   |
+| Object Oriented Programming | Object Oriented Programming Revision  | [Link](./src/OOP)         |
+| Data Structures             | LinkedLists, Stack, Queue, Graphs.    | [Link](./src/LinkedLists) |
+| Dynamic Programming         | Dynamic Programming                   | [Link](./src/Projectone)  |
+
 <br>
 
 ## Contributing
