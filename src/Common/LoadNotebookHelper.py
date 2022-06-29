@@ -92,5 +92,5 @@ rootdir = '../'
 for file in os.listdir(rootdir):
     d = os.path.join(rootdir, file)
     if os.path.isdir(d):
-        print(f"Adding subfolder: {d}")
+        print(f"Loading Libary Subfolder: {d}")
         sys.meta_path.append(NotebookFinder([d]))
