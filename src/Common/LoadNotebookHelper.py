@@ -8,7 +8,7 @@ from nbformat import read
 from IPython.core.interactiveshell import InteractiveShell
 import iplantuml
 
-def find_notebook(fullname, path=None):
+def find_notebook(fullname, path=['']):
     """find a notebook, given its fully qualified name and an optional path
     
     This turns "foo.bar" into "foo/bar.ipynb"
@@ -16,8 +16,7 @@ def find_notebook(fullname, path=None):
     does not exist.
     """
     name = fullname.rsplit('.', 1)[-1]
-    if not path:
-        path = ['']
+        
     for d in path:
         nb_path = os.path.join(d, name + ".ipynb")
         if os.path.isfile(nb_path):
@@ -29,7 +28,7 @@ def find_notebook(fullname, path=None):
 
 class NotebookLoader(object):
     """Module Loader for Jupyter Notebooks"""
-    def __init__(self, path=None):
+    def __init__(self, path=['']):
         self.shell = InteractiveShell.instance()
         self.path = path
     
@@ -71,11 +70,12 @@ class NotebookLoader(object):
 
 class NotebookFinder(object):
     """Module finder that locates Jupyter Notebooks"""
-    def __init__(self):
+    def __init__(self, subfolder):
         self.loaders = {}
-    
-    def find_module(self, fullname, path=None):
-        nb_path = find_notebook(fullname, path)
+        self.path = subfolder
+        
+    def find_module(self, fullname, path=['']):
+        nb_path = find_notebook(fullname, self.path)
         if not nb_path:
             return
         
@@ -85,7 +85,12 @@ class NotebookFinder(object):
             key = os.path.sep.join(path)
         
         if key not in self.loaders:
-            self.loaders[key] = NotebookLoader(path)
+            self.loaders[key] = NotebookLoader(self.path)
         return self.loaders[key]
 
-sys.meta_path.append(NotebookFinder())
+rootdir = '../'
+for file in os.listdir(rootdir):
+    d = os.path.join(rootdir, file)
+    if os.path.isdir(d):
+        print(f"Adding subfolder: {d}")
+        sys.meta_path.append(NotebookFinder([d]))
