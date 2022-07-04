@@ -1,6 +1,0 @@
- 
-BFS: Queue
-DFS: Stack
-Shortest Path
-Find Connected Components
-Topological Sort: used only in directed acyclic graphs
